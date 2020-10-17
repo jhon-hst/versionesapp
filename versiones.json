@@ -1,6 +1,6 @@
 {
-    "versionName": "999.0.0",
-    "versionCode": 3,
+    "versionName": "1.1",
+    "versionCode": 4,
     "apkUrl": "https://github.com/jhon-hst/versionesapp/releases/download/App/app-turbo-pelis.apk",
-    "forceUpdate": true
+    "forceUpdate": false
 }
