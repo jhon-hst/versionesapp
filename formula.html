@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <iframe id="myIframe" name="myIframe"
+        src="https://damedamehoy.xyz/embed.php?v=TklOUkR5ZWpMVDh5SXc4TnUwR0dRR2NWVHRtYlhaMm5LM2xlQ1AyTDd1MD0="></iframe><br />
+    Result:<br />
+    <textarea id='result'></textarea>
+    <input type="button" value="click" id="btn" onclick="copyIframeContent()">
+    <a href="https://damedamehoy.xyz/embed.php?v=TklOUkR5ZWpMVDh5SXc4TnUwR0dRR2NWVHRtYlhaMm5LM2xlQ1AyTDd1MD0="
+        download="Reporte2Mayo2010">
+        Descargar Archivo
+    </a>
+    <script type="text/javascript">
+        function copyIframeContent() {
+            var iframeContent = $('myIframe').contents().find('html'); //alert(iframeContent); 
+            //$("#result").text("Hello World"); 
+            console.log(iframeContent)
+        } 
+    </script>
+</body>
+
+</html>
